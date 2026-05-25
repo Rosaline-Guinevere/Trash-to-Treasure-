@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Solutions</title>
+    <!-- Bootstrap CDN CSS Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- AOS CDN Link -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="smartsolutions.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-md px-3 fixed-top shadow">
+        <!-- Navbar brand -->
+        <a href="index.html" class="navbar-brand"><img id="logo" src="logo.png" alt="logo">   Trash To Treasure</a>
+         <!-- Navbar toggle button -->
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-id"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="nav-id">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link active nav-active">Home</a></li>
+                <li class="nav-item"><a href="aboutus.html" class="nav-link active">About Us</a></li>
+                <li class="nav-item"><a href="whyitmatters.html" class="nav-link active">Why It Matters</a></li>
+                <li class="nav-item"><a href="currentproblem.html" class="nav-link active">Current Problems</a></li>
+                <li class="nav-item dropdown"><a href="" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown">Features</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="smartsolutions.html" class="dropdown-item">Smart Solutions</a></li>
+                        <li><a href="Tips.html" class="dropdown-item">Food Storing Tips</a></li>
+                        <li><a href="action.html" class="dropdown-item">Take Action</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+     <!-- hero section -->
+    <section class="top-section mb-5">
+        <div>
+            <h1>Smart Solutions for Household Waste</h1>
+            <p>Discover how modern technology can help reduce waste, improve recycling, and create cleaner communities.</p>
+        </div>
+    </section>
+    <!-- end -->
+
+     <!-- smart solutions to managing household waste -->
+    <section id="tech" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Smart Solutions For Managing Household Waste</h2>
+            <!-- Horizontal Nav Pills -->
+            <ul class="nav nav-pills justify-content-center" id="smartTechTabs">
+                <li class="nav-item">
+                    <button class="nav-link active fw-bold" id="bins-tab" data-bs-toggle="tab" data-bs-target="#bootstrap" type="button">Smart Bins</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link fw-bold" id="apps-tab" data-bs-toggle="tab" data-bs-target="#apps" type="button">Tracking Apps</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link fw-bold" id="food-tab" data-bs-toggle="tab" data-bs-target="#food" type="button">Food Storage</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link fw-bold" id="energy-tab" data-bs-toggle="tab" data-bs-target="#energy" type="button">Eco Appliances</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link fw-bold" id="compost-tab" data-bs-toggle="tab" data-bs-target="#compost" type="button">Compost</button>
+                </li>
+            </ul>
+            <hr class="mt-2 mb-4 border-2">
+            
+            <div class="tab-content bg-light p-4 rounded-3 border" id="smartTechTabsContent">
+                <!-- Smart Bins Pane -->
+                <div class="tab-pane show active" id="bootstrap">
+                    <div class="row align-items-center">
+                        <div class="col-sm-4 mb-3 mb-sm-0">
+                            <img src="smartbin.png" alt="Smart Bin" class="img-fluid rounded-3">
+                        </div>
+                        <div class="col-sm-8">
+                            <h3 class="fw-bold">Smart Bins</h3>
+                            <p>These bins contain smart weight and fill-level sensors. They send automated alerts when completely full, which helps neighborhoods prevent messy overflows and separate recyclable materials properly.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Waste Tracking Apps Pane -->
+                <div class="tab-pane" id="apps">
+                    <div class="row align-items-center">
+                        <div class="col-sm-4 mb-3 mb-sm-0">
+                            <img src="wastetracker.jpg" alt="Tracking App" class="img-fluid rounded-3">
+                        </div>
+                        <div class="col-sm-8">
+                            <h3 class="fw-bold">Waste Tracking Apps</h3>
+                            <p>Mobile phone applications remind users exactly when to put out their recycling bins. They track your daily household trash habits over time and encourage sustainable behavior change.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Smart Food Storage Pane -->
+                <div class="tab-pane" id="food">
+                    <div class="row align-items-center">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <img src="storage.avif" alt="Smart Fridge" class="img-fluid rounded-3">
+                    </div>
+                    <div class="col-sm-8">
+                        <h3 class="fw-bold">Smart Food Storage</h3>
+                        <p>Modern smart refrigerators track expiration dates of items placed inside them. They automatically send notifications to cook food before it spoils, saving money and dramatically lowering food waste.</p>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Energy-Efficient Appliances Pane -->
+                <div class="tab-pane" id="energy">
+                    <div class="row align-items-center">
+                        <div class="col-sm-4 mb-3 mb-sm-0">
+                            <img src="energyapply.webp" alt="Washing Machine" class="img-fluid rounded-3">
+                        </div>
+                        <div class="col-sm-8">
+                            <h3 class="fw-bold">Energy-Efficient Appliances</h3>
+                            <p>Smart washing machines and dishwashers analyze loads and operate during off-peak energy hours using custom eco-modes. This lowers electricity use and prevents extra water waste.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Compost Systems Pane -->
+                <div class="tab-pane" id="compost">
+                    <div class="row align-items-center">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <img src="compost.webp" alt="Composting" class="img-fluid rounded-3">
+                    </div>
+                    <div class="col-sm-8">
+                        <h3 class="fw-bold">Compost Systems</h3>
+                        <p>Automated composting machines accelerate the breakdown of organic kitchen scraps. They convert food waste into soil fertilizer for eco-friendly gardening,which includes diverting heavy waste away from city landfills.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- how smart systems work -->
+    <section id="how-it-works" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">How Smart Systems Work</h2>
+            <p class="text-center mb-5">From the bin connected to your phone: a simple 3-step process to manage your household waste and keep your place clean.</p>
+            <div class="row g-4 text-center">
+            
+                <!-- Step 1 -->
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <div class="step text-white rounded-circle mx-auto mb-3 p-3">
+                            <h4 class="fw-bold m-0">1</h4>
+                        </div>
+                        <h4 class="fw-bold">Sensors Collect Data</h4>
+                        <p>Smart sensors placed inside household bins or storage containers constantly measure fill levels, weight, and temperature in real time.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="col-md-4">
+                    <div class="p-3">
+                    <div class="step text-white rounded-circle mx-auto mb-3 p-3">
+                        <h4 class="fw-bold m-0">2</h4>
+                    </div>
+                    <h4 class="fw-bold">Data Sent to Cloud</h4>
+                    <p>The collected information is transmitted through wireless networks to a central smart city management system.</p>
+                    </div>
+                </div>
+                
+                <!-- step 3 -->
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <div class="step text-white rounded-circle mx-auto mb-3 p-3">
+                            <h4 class="fw-bold m-0">3</h4>
+                        </div>
+                        <h4 class="fw-bold">Action & Alarms</h4>
+                        <p>The system instantly updates tracking apps to remind you to recycle, or sends a direct notification to collection trucks to empty full bins.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- how smart technology help -->
+    <section id="helps" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Benefits of Smart Technology</h2>
+            <p class="text-center mb-5">Smart waste systems can help cities become cleaner and more sustainable.</p>
+            <div class="mx-auto" style="max-width: 700px;">
+
+                <div class="row align-items-center py-3 border-bottom">
+                    <div class="col-3 text-end border-end pe-4">
+                        <h1 class="display-5 percent fw-bold m-0">0%</h1>
+                    </div>
+                    <div class="col-9 ps-4">
+                        <h5 class="fw-bold m-0">Overflowing Bins</h5>
+                        <p class="m-0">Sensors alert collection trucks immediately before any mess or litter happens on the street.</p>
+                    </div>
+                </div>
+                
+                <div class="row align-items-center py-3 border-bottom">
+                    <div class="col-3 text-end border-end pe-4">
+                        <h1 class="display-5 percent fw-bold m-0">+65%</h1>
+                    </div>
+                    <div class="col-9 ps-4">
+                        <h5 class="fw-bold m-0">Recycling Rates</h5>
+                        <p class="m-0">Smart systems and phone apps make sorting daily household materials fast, simple, and accurate.</p>
+                    </div>
+                </div>
+                
+                <div class="row align-items-center py-3 border-bottom">
+                    <div class="col-3 text-end border-end pe-4">
+                        <h1 class="display-5 percent fw-bold m-0">-30%</h1>
+                    </div>
+                    <div class="col-9 ps-4">
+                        <h5 class="fw-bold m-0">Electricity Usage</h5>
+                        <p class="m-0">Connected home appliances can optimize their cycles to run only during cheap electricity hours.</p>
+                    </div>
+                </div>
+                
+                <div class="row align-items-center py-3">
+                    <div class="col-3 text-end border-end pe-4">
+                        <h1 class="display-5 percent fw-bold m-0">100%</h1>
+                    </div>
+                    <div class="col-9 ps-4">
+                        <h5 class="fw-bold m-0">Cleaner Environment</h5>
+                        <p class="m-0">Advanced sorting and tracking system prevent thousands of tons of garbage from heading straight into local landfills.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+
+    <footer class="mt-5">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-4 mb-4 mb-lg-0 ms-5 p-5">
+                    <h2>Trash to Treasure</h2>
+                    <p>
+                        Proper household waste management helps reduce pollution, protect nature, 
+                        and create a cleaner and healthier future for our community.
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="https://instagram.com" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://pinterest.com" target="_blank">
+                            <i class="bi bi-pinterest"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            <div class="col-6 col-lg-3 ms-5 p-5">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="whyitmatters.html">Why it Matters</a></li>
+                        <li><a href="currentproblem.html">Currunt Problems</a></li>
+                        <li><a href="smartsolutions.html">Smart Solutions</a></li>
+                        <li><a href="Tips.html">Food Storing Tips</a></li>
+                        <li><a href="action.html">Take Action</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-3 ms-5 p-5">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+                </div>
+            
+            <hr>
+
+            <div class="footer-bottom">
+                <p class="mb-0">
+                    Copyright 2026 @Trash To Treasure. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    
+    <!-- Bootstrap CDN JS LINK -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- AOS JS Link -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS start -->
+     <script>
+        AOS.init();
+     </script>
+</body>
+</html>

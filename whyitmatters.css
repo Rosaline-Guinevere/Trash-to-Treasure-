@@ -1,0 +1,236 @@
+/* Nav bar */
+#logo {
+    width: 45px;
+    height: 45px;
+    align-items: start;
+}
+.nav-item {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropdown-menu {
+    background-color: rgb(247, 247, 247);
+}       
+.active {
+    background-color: rgb(251, 251, 251);
+    border-radius: 10px;
+}
+.active:hover {
+    background-color: #e8672c;
+} 
+.nav-item {
+    padding: 7px;
+    text-align: center;
+}
+.navbar {
+    background-color: #ffffff;
+}
+body {
+    background-color: #ffffff;
+    padding-top: 70px;
+    font-family: Arial;
+}
+
+
+/* header */
+.top-section{
+        background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url(whyitmattersimg.png);
+        background-size:cover;
+        background-position:center;
+        height:55vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        color:white;
+        border-bottom-left-radius:40px;
+        border-bottom-right-radius:40px;
+    }
+
+    .top-section h1{
+        font-size:4rem;
+    }
+
+    .top-section p{
+        font-size:1.2rem;
+    }
+
+
+    /* IMPACT CARDS */
+
+    .impact-card{
+        border:none;
+        border-radius:20px;
+        padding:25px;
+        background:white;
+        transition:0.3s;
+        height:100%;
+        box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    }
+    .impact-icon{
+        font-size:3rem;
+    }
+
+    /* bad habits */
+    
+.habits-section{
+    padding:80px 60px;
+}
+
+.habit-item{
+    margin-top:30px;
+}
+
+.number{
+    border:2px solid #163b7b;
+    border-radius:50%;
+    color:#e8672c;
+    width:40px;
+    height:40px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.habit-item h3{
+    display:inline-block;
+    margin-left:15px;
+    font-weight:bold;
+}
+
+.habit-item p{
+    margin-top:15px;
+    max-width:350px;
+}
+
+.title-box{
+    border:2px solid #163b7b;
+    padding:40px 30px;
+    border-radius:25px;
+    color:#e8672c;
+    font-size:2.3rem;
+    font-weight:bold;
+    text-align:center;
+    width:320px;
+    height:220px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/* What you can do section */
+.modal-content{
+    border:none;
+    border-radius:25px;
+    padding:20px;
+}
+        .whatucando {
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+}
+.action-card{
+    padding:20px;
+    border-radius:20px;
+    height:100%;
+}
+.action-card h3,
+.modal-title{
+    color:#000000;
+    font-weight:bold;
+}
+/* end */
+/* footer */
+        body {
+            background-color: white;
+        }
+
+        footer {
+            background-color: #0A1C3A;
+            color: black;
+            padding: 60px 0 20px;
+            /* Setting the default font to Quicksand */
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        /* Cute Bubbly Titles */
+        footer h2,
+        footer h3 {
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: white; 
+            letter-spacing: 1px;
+        }
+
+        footer h2 {
+            font-size: 2.5rem;
+        }
+
+        /* Soft Paragraphs + Links */
+        footer p,
+        footer a {
+            color: white;
+            font-weight: 500;
+            font-size: 17px;
+        }
+
+        footer a {
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ff8c00; /* Changes to your orange theme color on hover! */
+            padding-left: 5px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin-bottom: 12px;
+        }
+
+        /* HR Line */
+        footer hr {
+            border: 1px solid white;
+            margin-top: 40px;
+            opacity: 0.1;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            gap: 18px;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 32px;
+            transition: 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2) rotate(5deg); /* Cute little pop and tilt */
+            color: #ff8c00;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 25px;
+        }
+        
+/* end */
